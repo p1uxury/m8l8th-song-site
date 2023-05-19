@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+    body{
+        background-color: rgb(160, 160, 160);
+       color: #fff;
+
+     }
+    header, .inf-block {
+        background-color: rgb(0, 0, 0);
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: flex-start;
+    }
+   .neon {
+         font-size: 36px; 
+         color: black ;
+         text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff;
+         text-align: center;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            padding: 1rem;
+            margin: 0 auto;
+            max-width: 900px;
+        } 
+        .inf-block{
+            padding: 0.5rem 1rem ;
+            flex-basis: 300px;
+        } 
+        @media(max-width:600px) {
+           .main
+           {flex-direction:column;}
+           .inf-block{flex-basis: 300px;}
+             
+        }
+        header, footer{
+            padding: 1rem;
+        }
+        p{
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 25px;
+            width: 100px;
+            margin: auto;
+            text-align: center;
+        }
+        h1{
+            font-family: 'Oswald', sans-serif;
+            font-size: 35px;
+        }
+        
+        .ending{
+            font-family: 'Oswald', sans-serif;
+            color: black ;
+            text-shadow: 0 0 10px #aaaaaa, 0 0 20px #aaaaaa, 0 0 30px #aaaaaa, 0 0 40px #aaaaaa, 0 0 70px #ffffff, 0 0 80px #ffffff, 0 0 100px #ffffff, 0 0 150px #ffffff;
+        }
+        
+        img{
+            width: 100%;
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            color: darkgray; 
+        }
+
+</style>
+<body>
+    <header>
+        <div class="center">
+            <h1 class="neon">ꑭM8L8THꑭ</h1>
+        </div>
+    </header>
+    <div class="main">
+       <section class="inf-block">
+            <img src="https://source.boomplaymusic.com/group10/M00/06/10/a5976b9112c9424ba0ac0eb721949e57_464_464.webp">
+            <p>Сльози осені</p>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=FG-atK4dLI0">Слухати пісню</a>    
+        </section>
+        <section class="inf-block">
+            <img src="https://source.boomplaymusic.com/group10/M00/06/10/a5976b9112c9424ba0ac0eb721949e57_464_464.webp">
+            <p>Мужність веде на небеса</p>
+            <br>
+            <a href="https://www.youtube.com/watch?v=FG-atK4dLI0" target="_blank">Слухати пісню</a>
+        </section>
+        <section class="inf-block">
+            <img src="https://heretic.camp/wp-content/uploads/2019/04/MH-RCQST-2020-768x768.png">
+            <p>Storm over Azov</p>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=WaAwdKW6GNo">Слухати пісню</a>
+        </section> 
+    </div>
+    <footer>
+    <div>
+        <h3 class="ending">
+            Від синів Перуна
+        </h3>
+    </div>
+    </footer>
+</body>
+</html>
